@@ -2,7 +2,7 @@ class ExceptionPractice {
     public static void  main (String [] args){
 
         try{
-            checkAge(15)
+            checkAge(15);
         } catch(Exception e){
             System.out.println("error " e);
         } finally{
